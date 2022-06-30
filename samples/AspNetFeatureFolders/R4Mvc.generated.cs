@@ -23,6 +23,7 @@ public static partial class MVC
     static readonly R4Mvc.ProductsAreaClass s_Products = new R4Mvc.ProductsAreaClass();
     public static R4Mvc.ProductsAreaClass Products => s_Products;
     public static readonly AspNetFeatureFolders.Features.Calculator.CalculatorController Calculator = new AspNetFeatureFolders.Features.Calculator.R4MVC_CalculatorController();
+    public static readonly AspNetFeatureFolders.Areas.Members.Features.Search.SearchController Search = new AspNetFeatureFolders.Areas.Members.Features.Search.R4MVC_SearchController();
     public static readonly R4Mvc.SharedController Shared = new R4Mvc.SharedController();
 }
 
